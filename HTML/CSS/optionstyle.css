@@ -1,0 +1,38 @@
+body,html{
+    height: 100%;
+}
+
+.list{  
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid rgb(243, 7, 243);
+    border-radius: 16px;
+    transform: translate(-50%, -50%);
+}
+.link{
+    position: relative;
+    text-decoration: none;
+}
+h1{
+    text-align:center;
+    color: white;
+    border: 2px solid yellowgreen;
+    border-radius: 14px;
+    margin: 5px;
+}
+
+.bgimg{
+    background-image: url(image/pexels-junior-teixeira-1064069-2047905.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    color: blanchedalmond;
+    
+}
